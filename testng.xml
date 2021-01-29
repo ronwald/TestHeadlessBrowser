@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="OS" value="Windows"/>
+<parameter name="browser" value="Chrome"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <!--  class name="testCases.WareHouse_Delivery_MobileTest"/-->
+      <!--  class name="testCases.WareHouse_Delivery"/-->
+      <class name="testCases.HeadlessTest"/>
+      <!--  class name="testCases.DriverSignUp"/-->
+      <!--  class name="recordedTest.CreateUOM"/-->
+      <!--  class name="testCases.DriverSignup_ErrorValidation"/-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
