@@ -5,12 +5,9 @@
 <parameter name="browser" value="Chrome"/>
   <test thread-count="5" name="Test">
     <classes>
-      <!--  class name="testCases.WareHouse_Delivery_MobileTest"/-->
-      <!--  class name="testCases.WareHouse_Delivery"/-->
+
       <class name="testCases.HeadlessTest"/>
-      <!--  class name="testCases.DriverSignUp"/-->
-      <!--  class name="recordedTest.CreateUOM"/-->
-      <!--  class name="testCases.DriverSignup_ErrorValidation"/-->
+ 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
