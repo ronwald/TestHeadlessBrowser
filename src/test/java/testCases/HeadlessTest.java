@@ -37,6 +37,8 @@ public class HeadlessTest extends MyUtilities{
 		 Assert.assertTrue(pageTitle.contains("Avenue Code"));
 		 log.info("Quitting driver");
 		 driver.quit();
+		 
+		 String test = "test";
 	}
 	 
 
